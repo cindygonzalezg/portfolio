@@ -1,0 +1,16 @@
+.navbar-nav a{
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+#logo{
+    height: 50px;
+}
+.nav-link:hover{
+    color: coral!important;
+    font-weight: bold;
+}
+.nav-item{
+    margin-left: 90px;
+}
+
