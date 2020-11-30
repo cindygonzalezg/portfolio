@@ -6,6 +6,9 @@
 #logo{
     height: 50px;
 }
+.nav-link{
+    font-weight: bold;
+}
 .nav-link:hover{
     color: coral!important;
     font-weight: bold;
