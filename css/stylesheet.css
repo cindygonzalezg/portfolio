@@ -13,4 +13,21 @@
 .nav-item{
     margin-left: 90px;
 }
-
+.homepage1{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("../images/splash.jpg");
+    background-size: cover;
+    color:white;
+    height: 100vh;
+}
+.box1{
+    display: flex;
+}
+.part1, .part3{
+    width: 30%;
+}
+.part2{
+    width: 40%;
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    text-align: left;
+}
