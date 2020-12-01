@@ -9,9 +9,12 @@
 .nav-link{
     font-weight: bold;
 }
-.nav-link:hover{
+.nav-dark,.navbar-nav, .nav-link.active{
     color: coral!important;
-    font-weight: bold;
+    font-weight: bolder !important;
+}
+.nav-dark,.navbar-nav, .nav-link:hover {
+    color: coral !important;
 }
 .nav-item{
     margin-left: 90px;
@@ -20,7 +23,7 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("../images/splash.jpg");
     background-size: cover;
     color:white;
-    height: 100vh;
+    height: 90vh;
 }
 .box1{
     display: flex;
@@ -33,4 +36,35 @@
     font-family: 'Quicksand', sans-serif;
     display: inline-block;
     text-align: left;
+    height: 90vh;
+}
+.arrow1 {
+    display:table-cell;
+    position:relative;
+    vertical-align:bottom;
+    margin: 10px; width: 800px; height: 300px; margin-bottom: 0;
+}
+
+.arrow {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+}
+#aboutme{
+    height: 100vh;
+}
+.links, .link1, .link2{
+    display: flex;
+}
+.link1,.link2{
+    width: 50%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 3vh;
+}
+.section2{
+    height: 10vh;
+    background-color: #ffffff;
+    color: #444a51;
+    font-family: 'Comfortaa', cursive;
 }
