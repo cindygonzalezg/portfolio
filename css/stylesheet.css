@@ -20,7 +20,7 @@
     margin-left: 90px;
 }
 .homepage1{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("../images/splash.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30) ), url("../images/drink.JPG");
     background-size: cover;
     color:white;
     height: 90vh;
@@ -37,30 +37,24 @@
     display: inline-block;
     text-align: left;
     height: 90vh;
-}
-.arrow1 {
-    display:table-cell;
-    position:relative;
-    vertical-align:bottom;
-    margin: 10px; width: 800px; height: 300px; margin-bottom: 0;
-}
-
-.arrow {
-    display: inline-block;
-    width: 150px;
-    margin: 10px;
+    position: relative;
 }
 #aboutme{
     height: 100vh;
 }
-.links, .link1, .link2{
-    display: flex;
+.links{
+    height: 10vh;
+    text-align: center;
 }
-.link1,.link2{
-    width: 50%;
+.links, .link1, .link2,.link3,.link4{
+    display: flex;
+    text-align: left;
+}
+.link1,.link2,.link3,.link4{
     margin-top: 2vh;
     margin-bottom: 2vh;
-    margin-right: 3vh;
+    width: 40%;
+    padding-left: 40px;
 }
 .section2{
     height: 10vh;
@@ -68,3 +62,5 @@
     color: #444a51;
     font-family: 'Comfortaa', cursive;
 }
+
+
