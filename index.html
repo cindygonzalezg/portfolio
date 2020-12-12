@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-21628ND7V8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-21628ND7V8');
+    </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,6 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <title>Home Page</title>
 
     <!--Style-->
@@ -42,16 +52,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">HOME</a>
+                        <a class="nav-link" href="#aboutme">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#aboutme">ABOUT ME</a>
+                        <a class="nav-link" href="#resume">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PORTFOLIO</a>
+                        <a class="nav-link" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -61,73 +71,118 @@
 
 <!--Main-->
 <main>
-    <!--First div-->
-    <div class="homepage1" id="home">
-        <div style="text-align: center" class="box1">
-            <div style="text-align: center" class="part2">
-                <div style="display: inline-block; text-align: left;">
-                    <h1 style="padding-top: 30vh; opacity: 75%;">HI.</h1>
-                    <h1 style="font-weight:bold; font-size: 90px">I'm Cindy,</h1>
-                    <h1 style="font-family: 'Bad Script', cursive; opacity: 90%; line-height: 70px">I am a designer</h1>
-                </div>
-            </div>
-            <div style="text-align: center" class="part1">
-
-            </div>
-            <div class="part3">
-                <h1></h1>
-            </div>
-        </div>
-    </div>
-    <!--links-->
-
-    <div class="section2">
-        <div class="links">
-            <div class="link1">
-                <div class="img1">
-                    <a  href="#"> <img style="width: 6vh; margin-right: 3vh;" src="images/user.png"
-                                      alt="icon"></a>
-                </div>
-                <div class="text1">
-                    <a style="color: coral;text-decoration: none" href="#"> <h4> About Me </h4></a>
-                    <a style="color: #acacac;text-decoration: none" href="#"><p style="font-size: 14px"> Click to get to know me.</p></a>
-                </div>
-            </div>
-            <div class="link2">
-                <div class="img2">
-                    <a class="a" href="#"> <img style="width: 6vh; margin-right: 3vh;" src="images/phone-on-circle.png"
-                                      alt="icon"></a>
-                </div>
-                <div class="text2">
-                    <a style="color: coral;text-decoration: none" href="#"> <h4> CV </h4></a>
-                    <a style="color: #acacac;text-decoration: none" href="#"> <p style="font-size: 14px"> Click to check my resume.</p></a>
-                </div>
-            </div>
-            <div class="link3">
-                <div class="img3">
-                    <a class="a" href="#"> <img style="width: 6vh; margin-right: 3vh;" src="images/phone-on-circle.png"
-                                                alt="icon"></a>
-                </div>
-                <div class="text3">
-                    <a style="color: coral;text-decoration: none" href="#"> <h4> Portfolio </h4></a>
-                    <a style="color: #acacac;text-decoration: none" href="#"> <p style="font-size: 14px"> Click to view my work.</p></a>
-                </div>
-            </div>
-            <div class="link4">
-                <div class="img4">
-                    <a class="a" href="#"> <img style="width: 6vh; margin-right: 3vh;" src="images/phone-on-circle.png"
-                                                alt="icon"></a>
-                </div>
-                <div class="text4">
-                    <a style="color: coral;text-decoration: none" href="#"> <h4> Contact Me </h4></a>
-                    <a style="color: #acacac;text-decoration: none" href="#"> <p style="font-size: 14px"> Click to find my contact information.</p></a>
+    <div class="homepage1">
+        <div class="container" id="home">
+            <div  class="row">
+                <div class="col-4 part2">
+                    <h1 style="padding-top: 25vh; opacity: 75%;">HI.</h1>
+                    <h1 style="font-weight:bold; font-size: 6rem">I'm Cindy,</h1>
+                    <h1 style="font-family: 'Bad Script', cursive; opacity: 90%; line-height: 5rem; font-size: 2.5rem">I am an HCI student</h1>
                 </div>
             </div>
         </div>
     </div>
-    <!--About Div-->
+
+<!--links below welcome message-->
+    <div class="section2 container">
+        <div style="margin-top: 2.3vh" class="row">
+            <!--1-->
+            <div class="col-1">
+                <a  href="#aboutme"><img class="piclink" style="width: 80%" src="images/employee.svg" alt="person"></a>
+            </div>
+            <div class="col-2">
+                <a class="link" href="#aboutme"><h4>
+                    About Me
+                </h4>
+                    <p class="small">Get to know me</p></a>
+            </div>
+            <!--2-->
+            <div class="col-1">
+                <a class="piclink" href="#resume"><img style="width: 80%" src="images/approved.svg" alt="person"></a>
+            </div>
+            <div class="col-2">
+                <a class="link" href="#resume">
+                    <h4>
+                    CV
+                    </h4>
+                    <p class="small">Check My Resume</p>
+                </a>
+            </div>
+            <!--3-->
+            <div class="col-1">
+                <a class="piclink" href="#"><img style="width: 80%" src="images/briefcase.svg" alt="person"></a>
+            </div>
+            <div class="col-2">
+                <a class="link" href="#">
+                    <h4>
+                    Portfolio
+                    </h4>
+                    <p class="small">View My Work</p>
+                </a>
+            </div>
+            <!--4-->
+            <div class="col-1">
+                <a class="piclink" href="#"><img style="width: 80%" src="images/smartphone.svg" alt="person"></a>
+            </div>
+            <div class="col-2">
+                <a class="link" href="#">
+                    <h4>
+                    Contact Me
+                    </h4>
+                    <p class="small">
+                        Let's talk
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!--About Page-->
     <div id="aboutme">
+        <div style="height: 100vh; position: relative" class="container">
+            <div  style=" padding-top: 4rem" class="row">
+                <div style="height: 60vh;margin: auto 0;" class="col-6">
+                    <h2 style="font-size: 2rem;">
+                        About Me
+                    </h2>
+                    <p style="font-size: 1.25rem">
+                        My name is Cindy Gonzalez, I am a Human-Computer Interaction major at the New Jersey Institute of technology. I am pursuing this career because since I was a kid
+                        I have been passionate about art and design. I took design more seriously in high school and now I am taking it to the next level in college. I study psychology, design, and
+                        computer science in order to build amazing user interfaces and experiences. Ready to work together?
+                    </p>
+                    <img style="width: 5rem" src="images/Photofox20.png" alt="signature">
+                    <div style="margin-top: 3rem">
+                        <a href="#resume" class="button">View Resume</a></div>
+                </div>
+                <div class="col-6">
+                    <img style="width: 90%; margin-left: 10%;" src="images/Photofox18.png">
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!--Resume Page-->
+    <div id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 resume">
+                    <div class="containter">
+                        <div style="margin: 3.5rem 2rem" class="row">
+                            <div class="col-1">
+                            </div>
+                            <div class="col-5">
+                                hello
+                            </div>
+                            <div class="col-2">
+                            </div>
+                            <div class="col-4">
+                                <img style="width: 100%; border-radius: 50%" src="images/laugh1.jpg" alt="cindy Gonzalez">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 

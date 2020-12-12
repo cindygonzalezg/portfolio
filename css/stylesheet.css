@@ -1,10 +1,13 @@
+html{
+    font-size: 100%;
+}
 .navbar-nav a{
     font-size: 18px;
     font-family: 'Quicksand', sans-serif;
     color: black;
 }
 #logo{
-    height: 50px;
+    height: 3.125rem;
 }
 .nav-link{
     font-weight: bold;
@@ -25,42 +28,69 @@
     color:white;
     height: 90vh;
 }
-.box1{
-    display: flex;
-}
-.part1, .part3{
-    width: 30%;
-}
 .part2{
-    width: 40%;
     font-family: 'Quicksand', sans-serif;
-    display: inline-block;
     text-align: left;
     height: 90vh;
     position: relative;
 }
 #aboutme{
     height: 100vh;
+    background-color: #FAF3E2;
+}
+#resume{
+    background-image: url("../images/patrick-fremond-NUzCuKS29mQ-unsplash.jpg");
+    background-size: cover;
 }
 .links{
     height: 10vh;
     text-align: center;
 }
-.links, .link1, .link2,.link3,.link4{
-    display: flex;
-    text-align: left;
-}
-.link1,.link2,.link3,.link4{
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    width: 40%;
-    padding-left: 40px;
-}
 .section2{
     height: 10vh;
-    background-color: #ffffff;
+    background-color: white;
     color: #444a51;
     font-family: 'Comfortaa', cursive;
 }
+h4{
+    font-size: 2vh;
+}
+.link{
+    color: #5f6469;
+}
+.link:hover{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+    line-height: 2rem;
+}
+.button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    border: #F17C3A 3px solid;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top:20px;
+    font-family: 'Quicksand', sans-serif;
 
+}
+.button:hover{
+    background: #F17C3A;
+    color: #ffff;
+    text-decoration: none;
+}
+.resume{
+    background-color: #faf3e2;
+    height: 100vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5), 0 10px 24px 0 rgba(0, 0, 0, 0.4);
 
+}
