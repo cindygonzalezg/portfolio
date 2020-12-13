@@ -1,6 +1,7 @@
 html{
     font-size: 100%;
 }
+body { overflow-x : hidden}
 .navbar-nav a{
     font-size: 18px;
     font-family: 'Quicksand', sans-serif;
@@ -36,31 +37,35 @@ html{
 }
 #aboutme{
     height: 100vh;
-    background-color: #FAF3E2;
+    background-color: #fff6e3;
 }
 #resume{
-    background-image: url("../images/patrick-fremond-NUzCuKS29mQ-unsplash.jpg");
+    background-image: url("../images/resume.jpg");
     background-size: cover;
+    height: 100vh;
 }
 .links{
     height: 10vh;
     text-align: center;
 }
+.linksection{
+    background-image: url("../images/resume.jpg");
+    background-size: cover;
+}
 .section2{
     height: 10vh;
-    background-color: white;
-    color: #444a51;
+    color: #ffffff;
     font-family: 'Comfortaa', cursive;
 }
 h4{
     font-size: 2vh;
 }
 .link{
-    color: #5f6469;
+    color: #989d9d;
 }
 .link:hover{
     text-decoration: none;
-    color: black;
+    color: #fdfdfd;
 }
 h2{
     font-family: 'Quicksand', sans-serif;
@@ -92,5 +97,65 @@ p{
     margin-top: 15vh;
     margin-bottom: 10vh;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5), 0 10px 24px 0 rgba(0, 0, 0, 0.4);
+}
+.resumetitle{
+    margin-top: 15vh; color: white;font-family: 'Quicksand', sans-serif; font-weight: bold;
+    font-size: 5vh; margin-bottom: 5vh;
+}
 
+.button1{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    border: #F17C3A 3px solid;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top:20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.button1:hover{
+    background: #ffffff;
+    color: #F17C3A;
+    font-weight: bold;
+    text-decoration: none;
+}
+#portfolio{
+    height: 100vh;
+    background-color: #041017;
+}
+#contact{
+    height: 90vh;
+    background-image: url("../images/resume.jpg");
+    background-size: cover;
+}
+h4{
+    font-family: 'Quicksand', sans-serif;
+}
+.card-text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+.info{
+    font-size: 1.5rem;
+    color: #b7b7b7;
+    font-family: 'Comfortaa', cursive;
+
+}
+.info:hover{
+    color: white;
+}
+.contact:hover{
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+footer{height: 10vh;
+background-color: #041017;
+}
+.foot{
+    font-size: 1.6vh;
+    color: #989d9d;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding-top: 3vh;
 }

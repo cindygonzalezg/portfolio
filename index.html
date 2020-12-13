@@ -13,6 +13,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Cindy Gonzalez Portfolio">
+    <meta name="keywords" content="ux design, Cindy, Cindy Gonzalez, ui design, human computer interaction, web design, website design">
+    <meta name="author" content="Cindy Gonzalez">
 
     <!--favicon-->
     <link rel="icon" type="image/x-icon" href="images/favicon1.ico"/>
@@ -58,10 +61,10 @@
                         <a class="nav-link" href="#resume">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -84,23 +87,20 @@
     </div>
 
 <!--links below welcome message-->
+<div class="linksection">
     <div class="section2 container">
-        <div style="margin-top: 2.3vh" class="row">
+        <div style="padding-top: 2.3vh" class="row">
             <!--1-->
-            <div class="col-1">
-                <a  href="#aboutme"><img class="piclink" style="width: 80%" src="images/employee.svg" alt="person"></a>
-            </div>
-            <div class="col-2">
-                <a class="link" href="#aboutme"><h4>
+
+            <div class="col-3">
+                <a class="link" href="#aboutme"><h4 class="">
                     About Me
                 </h4>
-                    <p class="small">Get to know me</p></a>
+                    <p class="small white">Get to know me</p></a>
             </div>
             <!--2-->
-            <div class="col-1">
-                <a class="piclink" href="#resume"><img style="width: 80%" src="images/approved.svg" alt="person"></a>
-            </div>
-            <div class="col-2">
+
+            <div class="col-3">
                 <a class="link" href="#resume">
                     <h4>
                     CV
@@ -109,11 +109,9 @@
                 </a>
             </div>
             <!--3-->
-            <div class="col-1">
-                <a class="piclink" href="#"><img style="width: 80%" src="images/briefcase.svg" alt="person"></a>
-            </div>
-            <div class="col-2">
-                <a class="link" href="#">
+
+            <div class="col-3">
+                <a class="link" href="#portfolio">
                     <h4>
                     Portfolio
                     </h4>
@@ -121,11 +119,9 @@
                 </a>
             </div>
             <!--4-->
-            <div class="col-1">
-                <a class="piclink" href="#"><img style="width: 80%" src="images/smartphone.svg" alt="person"></a>
-            </div>
-            <div class="col-2">
-                <a class="link" href="#">
+
+            <div class="col-3">
+                <a class="link" href="#contact">
                     <h4>
                     Contact Me
                     </h4>
@@ -136,7 +132,7 @@
             </div>
         </div>
     </div>
-
+</div>
 <!--About Page-->
     <div id="aboutme">
         <div style="height: 100vh; position: relative" class="container">
@@ -155,37 +151,191 @@
                         <a href="#resume" class="button">View Resume</a></div>
                 </div>
                 <div class="col-6">
-                    <img style="width: 90%; margin-left: 10%;" src="images/Photofox18.png">
+                    <img style="width: 90%; margin-left: 10%;" src="images/Photofox22.png" alt="Cindy Gonzalez">
                 </div>
             </div>
         </div>
     </div>
 
-    <!--Resume Page-->
+<!--Resume Page-->
     <div id="resume">
         <div class="container">
             <div class="row">
-                <div class="col-12 resume">
-                    <div class="containter">
-                        <div style="margin: 3.5rem 2rem" class="row">
-                            <div class="col-1">
+                    <div class="col-12">
+                        <h1 class="resumetitle">My resume</h1>
+                        <iframe src="images/Cindy%20Gonzalez%20Resume.pdf" style="width: 100%; height: 60vh"></iframe>
+                        <div style="margin-top: 3rem">
+                            <a href="#portfolio" class="button1">View My Portfolio</a></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+<!--Portfolio page-->
+    <div id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="resumetitle">My Work</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="inam" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="width: 300px">
+                                            <img style="height: 240px" src="images/2020-12-12.png " class="card-img-top" alt="website">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cloud Technology</h4>
+                                                <p class="card-text">Learn about cloud technology</p>
+                                                <div style="display: flex">
+                                                <a href="https://github.com/cindygonzalezg/cloudtechnology" target="_blank" rel="noopener noreferrer"> <button type="button" class="btn btn-info">GitHub Repo</button>
+                                                </a>
+                                                <a href="https://cindygonzalezg.github.io/cloudtechnology/" target="_blank" rel="noopener noreferrer"><button style="margin-left: 1rem" type="button" class="btn btn-info">Visit Site</button>
+                                                </a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="width: 300px">
+                                            <img style="height: 240px" src="images/2020-12-12%20(2).png" class="card-img-top" alt="website">
+                                            <div class="card-body">
+                                                <h4 class="card-title">History of the Internet</h4>
+                                                <p class="card-text">Information about early technology</p>
+                                                <div style="display: flex">
+                                                    <a href="https://github.com/cindygonzalezg/is117historyoftheinternet" target="_blank" rel="noopener noreferrer"> <button type="button" class="btn btn-info">GitHub Repo</button>
+                                                    </a>
+                                                    <a href="https://cindygonzalezg.github.io/is117historyoftheinternet/" target="_blank" rel="noopener noreferrer"><button style="margin-left: 1rem" type="button" class="btn btn-info">Visit Site</button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="width: 300px">
+                                            <img style="height: 240px" src="images/2020-12-12%20(3).png " class="card-img-top" alt="website">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Data Privacy</h4>
+                                                <p class="card-text">A site about browser fingerprinting</p>
+                                                <div style="display: flex">
+                                                    <a href="https://github.com/cindygonzalezg/dataprivacy" target="_blank" rel="noopener noreferrer"> <button type="button" class="btn btn-info">GitHub Repo</button>
+                                                    </a>
+                                                    <a href="https://cindygonzalezg.github.io/dataprivacy/index.html" target="_blank" rel="noopener noreferrer"><button style="margin-left: 1rem" type="button" class="btn btn-info">Visit Site</button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-5">
-                                hello
-                            </div>
-                            <div class="col-2">
-                            </div>
-                            <div class="col-4">
-                                <img style="width: 100%; border-radius: 50%" src="images/laugh1.jpg" alt="cindy Gonzalez">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="width: 300px; margin: auto;">
+                                            <img style="height: 240px" src="images/2020-12-12%20(4).png " class="card-img-top" alt="website">
+                                            <div class="card-body">
+                                                <h4 class="card-title">The Internet</h4>
+                                                <p class="card-text">Everything about the Internet</p>
+                                                <div style="display: flex">
+                                                    <a href="https://github.com/cindygonzalezg/theInternet" target="_blank" rel="noopener noreferrer"> <button type="button" class="btn btn-info">GitHub Repo</button>
+                                                    </a>
+                                                    <a href="https://cindygonzalezg.github.io/theInternet/" target="_blank" rel="noopener noreferrer"><button style="margin-left: 1rem" type="button" class="btn btn-info">Visit Site</button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="width: 300px; margin: auto">
+                                            <img style="height: 240px" src="images/2020-12-12%20(5).png" class="card-img-top" alt="website">
+                                            <div class="card-body">
+                                                <h4 class="card-title">How the Internet Works</h4>
+                                                <p class="card-text">Learn about internet functionality</p>
+                                                <div style="display: flex">
+                                                    <a href="https://github.com/cindygonzalezg/howtheinternetworks" target="_blank" rel="noopener noreferrer"> <button type="button" class="btn btn-info">GitHub Repo</button>
+                                                    </a>
+                                                    <a href="https://cindygonzalezg.github.io/howtheinternetworks/" target="_blank" rel="noopener noreferrer"><button style="margin-left: 1rem" type="button" class="btn btn-info">Visit Site</button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <a href="#inam" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#inam" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div style="margin-top: 70px" class="row">
+                <div class="col-12">
+                    <a href="#contact" class="button1"> View My Contact Information</a></div>
+                </div>
+            </div>
+        </div>
+    <!--Contact-->
+    <div id="contact">
+        <div style="height: 80vh" class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="resumetitle">Contact me</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <a href="https://github.com/cindygonzalezg" target="_blank" rel="noopener noreferrer"><img style="width: 90%" src="images/github.svg" alt="github"></a>
+                </div>
+                <div class="col-1"></div>
+                <div style="height: 5vh; margin: auto 0" class="col-7">
+                    <a class="contact" href="https://github.com/cindygonzalezg" target="_blank" rel="noopener noreferrer"><h3 class="info">Learn more about my work on Github</h3></a>
+                </div>
+            </div>
+            <div style="margin-top: 4vh" class="row">
+                <div class="col-2">
+                    <a href="https://www.linkedin.com/in/cindygonzalezg/" target="_blank" rel="noopener noreferrer"><img style="width: 90%" src="images/linkedin.svg" alt="github"></a>
+                </div>
+                <div class="col-1"></div>
+                <div style="height: 5vh; margin: auto 0" class="col-7">
+                    <a class="contact" href="https://www.linkedin.com/in/cindygonzalezg/" target="_blank" rel="noopener noreferrer"><h3 class="info">Connect with me on LinkedIn</h3></a>
+                </div>
+            </div>
+            <div style="margin-top: 4vh" class="row">
+                <div class="col-2">
+                    <a href="https://www.instagram.com/cindyssketchbook/?hl=en" target="_blank" rel="noopener noreferrer"><img style="width: 90%" src="images/instagram.svg" alt="github"></a>
+                </div>
+                <div class="col-1"></div>
+                <div style="height: 4vh; margin: auto 0" class="col-7">
+                    <a class="contact" href="https://www.instagram.com/cindyssketchbook/?hl=en" target="_blank" rel="noopener noreferrer"><h3 class="info">Find me on Instagram</h3></a>
                 </div>
             </div>
         </div>
     </div>
 </main>
-
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="foot">- &copy;CindyGonzalez2020 -</p>
+            </div>
+        </div>
+    </div>
+</footer>
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
